@@ -4,6 +4,9 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import ts from '../assets/ts.png'
 import java from '../assets/java.png'
+import react from '../assets/React-icon.svg.png'
+import sass from '../assets/2560px-Sass_Logo_Color.svg.png'
+import github from '../assets/github-mark-white.png'
 
 const Skills = () => {
   return (
@@ -24,7 +27,7 @@ const Skills = () => {
                     <p className='my-4'>CSS</p>
                 </div>
                 <div className='shadow-md shadow-[040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={css} alt="sass icon" />
+                    <img className='w-20 mx-auto' src={sass} alt="sass icon" />
                     <p className='my-4'>SASS</p>
                 </div>
                 <div className='shadow-md shadow-[040c16] hover:scale-110 duration-500'>
@@ -36,11 +39,11 @@ const Skills = () => {
                     <p className='my-4'>JAVASCRIPT</p>
                 </div>
                 <div className='shadow-md shadow-[040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={javascript} alt="react icon" />
+                    <img className='w-20 mx-auto' src={react} alt="react icon" />
                     <p className='my-4'>REACT</p>
                 </div>
                 <div className='shadow-md shadow-[040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={javascript} alt="github icon" />
+                    <img className='w-20 mx-auto' src={github} alt="github icon" />
                     <p className='my-4'>GITHUB</p>
                 </div>
                 <div className='shadow-md shadow-[040c16] hover:scale-110 duration-500'>
