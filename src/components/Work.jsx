@@ -2,6 +2,10 @@ import React from 'react'
 import WorkImg from '../assets/onlinetest.PNG'
 import TourImg from '../assets/tourimg.jpg'
 import Exchange from '../assets/exchangeapp.PNG'
+import aksaray from '../assets/projefotoang.PNG'
+import startup from '../assets/startup.PNG'
+import vultus from '../assets/vultus.jpg'
+import beemovie from '../assets/beemovie.PNG'
 
 const Work = () => {
   return (
@@ -21,26 +25,26 @@ const Work = () => {
                             React JS Aplication 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://exchangereactapp.netlify.app/">
+                            <a href="https://exchangereactapp.netlify.app/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/cuneyt88/Exchange-React-App">
+                            <a href="https://github.com/cuneyt88/Exchange-React-App" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage:`url(${TourImg}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage:`url(${beemovie}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             React JS Aplication 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://bee-movie-app88.netlify.app" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/cuneyt88/TourApp">
+                            <a href="https://github.com/cuneyt88/Movie-App" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -53,10 +57,10 @@ const Work = () => {
                             React JS Aplication 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -69,10 +73,58 @@ const Work = () => {
                             React JS Aplication 
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="/" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${startup}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            React JS Aplication 
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://startupztaskapp.netlify.app/" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/cuneyt88/Startupz" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${aksaray}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Angular Aplication 
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://city-route-map.netlify.app" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/cuneyt88/route-portal" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage:`url(${vultus}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            React Native Aplication 
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://expo.dev/@cucu88/Vultus-App-CyberSoft-Project?serviceType=classic&distribution=expo-go" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/cuneyt88/Vultus-Mobile-App" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
